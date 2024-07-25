@@ -1,3 +1,13 @@
+:root {
+    --hover-color:#FFF;
+    --text-color:#C7C7C7;
+    --background-color:#8E32C6;
+    --input-color:#959595;
+    --additional-color:#D8D8D8;
+}
+
+
+
 a {
     text-decoration: none;
 }
@@ -17,3 +27,485 @@ button {
     padding: 0;
     border: 0;
 }
+
+input {
+    border:none;
+}
+
+input:hover,
+input:focus{
+ outline:none;
+}
+
+.contayner {
+    width: 1300px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 10px;
+    padding-left: 10px;
+    
+}
+
+.box {
+    display: flex;
+}
+
+
+/* font-family: "PT Serif", serif */
+/* font-family: "Playfair Display", serif */
+
+::before {
+    font-family: "Roboto", sans-serif;
+}
+
+
+.header {
+    background: #012D63; 
+    padding-top: 17px;
+    padding-bottom: 15px;
+}
+
+.nav-list {
+    display: flex;
+}
+
+.nav-link {
+    color:var(--text-color);
+font-size: 24px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+
+
+.nav-link:hover {
+color:var(--hover-color);
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.header-span:hover {
+    color:var(--text-color);
+font-size: 24px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+
+.logo {
+    margin-right: 152px;
+}
+
+.nav-list {
+    display: flex;
+    gap:29px;
+}
+
+.header-margin {
+    margin-right: 44px;
+}
+    
+
+
+.header-span {
+    color: var(--hover-color);
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+
+/* hero */
+
+.hero {
+padding-top: 94px;
+padding-bottom: 150px;
+background-image: url(./img/bakgraund-nik.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+/* width: 1930px; */
+/* height: 858px; */
+}
+
+.hero-img {
+    width: 160px;
+}
+
+.hero-text {
+    color: var(--hover-color);
+font-family: "PT Serif";
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.hero-title  {
+    color:var(--hover-color);
+font-family: "Playfair Display";
+font-size: 144px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.hero-h2 {
+color: var(--hover-color);
+font-family: "Playfair Display";
+font-size: 72px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 12px;
+}
+
+.hero-p {
+    width: 508px;
+    color: var(--hover-color);
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 41px;
+}
+
+.hero-button {
+color: var(--hover-color);
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+border-radius: 10px;
+background: #8E32C6;
+padding-top: 20px;
+padding-bottom: 19px;
+padding-right: 61px;
+padding-left: 61px;
+}
+
+/* плюси */
+
+.plus {
+    /* background-image:url(./img/backgraund-plus.jpg); */
+ background: url(./img/backgraund-plus.jpg), lightgray 0px -384px / 100% 227.888% no-repeat;;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    padding-bottom:100px;
+    /* width: 1930px; */
+}
+
+.plus-list {
+    display: flex;
+    border:solid 5px var(--background-color);
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.plus-item {
+    margin-bottom:20px;
+    margin-top:22px;
+    padding-left:90px;
+    padding-right: 95px;
+}
+
+
+.plus-item:nth-child(2) {
+    padding-left:110px;
+    padding-right: 110px;
+    border-right:solid 1px var(--hover-color);
+    border-left:solid 1px var(--hover-color);
+}
+
+/* .plus-linia {
+background-color:#FFF;
+width: 1px;
+height: 346px;
+} */
+
+
+
+
+
+
+/* .plus-item:last-child {
+    padding-top: ;
+    padding-right;
+} */
+
+
+.plus-title {
+    width: 159px;
+    color: var(--hover-color);
+text-align: center;
+font-family: "Playfair Display";
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 10px;
+}
+
+/* .plus-img {
+width: 240px;
+height: 240px;
+
+} */
+
+/* Reviews */
+
+.reviews {
+background: url(./img/revais-backgraund\.jpg) no-repeat;
+background-size: cover;
+padding-bottom: 114px;
+padding-top: 24px;
+
+
+}
+
+.reviews-title {
+color: var(--hover-color);
+text-align: center;
+font-family: "Playfair Display";
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 24px;
+}
+
+.reviews-wrap {
+   display: flex;
+    justify-content: center;
+}
+.reviews-list {
+    display: flex;
+    gap: 93px;
+  
+}
+
+.reviews-item {
+    border-radius: 15px;
+background: linear-gradient(137deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.5%, #CC5EC2 100%);
+box-shadow: 0px 14px 0px -5px #7B54B2, 0px 30px 0px -13px #533978;
+padding-bottom: 29px;
+padding-top: 49px;
+padding-left: 13px;
+padding-right: 14px;
+}
+
+.reviews-item:nth-child(2) {
+    border-radius: 15px;
+background: linear-gradient(137deg, #FF68B4 0%, #FF45E1 26.04%, #CE3AFF 62.84%, #8961FF 100%);
+box-shadow: 0px 14px 0px -5px #9159B1, 0px 30px 0px -13px #61337C;
+}
+
+.reviews-item:nth-child(3) {
+    border-radius: 15px;
+background: linear-gradient(143deg, #FFE128 0%, #FF9B5C 30.21%, #FF8381 63.29%, #FF5489 100%);
+box-shadow: 0px 14px 0px -5px #B95A4C, 0px 30px 0px -13px #732F26;
+}
+
+.reviews-text {
+    width: 228px;
+    color: var(--hover-color);
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 8px;
+}
+
+.reviews-p {
+    color: var(--additional-color);
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 47px;
+}
+
+.reviews-img {
+    width: 31px;
+    border-radius: 31px;
+    margin-right: 5px;
+}
+
+.reviews-perenos {
+   display: flex;
+}
+
+.scores-title {
+    color: var(--hover-color);
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 1px;
+}
+
+.scores-text {
+    color: var(--additional-color);
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+/* order */
+
+.order {
+    padding-top: 20px;
+    padding-bottom: 37px;
+    background: url(./img/order-backgraund.jpg) lightgray -1.001px -1.002px / 100.209% 158.214% no-repeat;
+}
+
+
+
+
+.order-title {
+  color:var(--hover-color);
+font-family: "Playfair Display";
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;  
+text-align: center;
+margin-bottom: 37px;
+}
+
+.order-list {
+    display: flex;
+    gap:19px;
+    flex-direction: column;
+}
+
+.order-item {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.order-input {
+border-radius: 50px;
+background: var(--hover-color);
+padding-left: 24px;
+padding-right: 417px;
+padding-top: 11px;
+padding-bottom: 11px;
+}
+
+
+
+.order-input:focus {
+ width: 690px;
+height: 50px;
+}
+
+
+.order-button {
+    color: var(--hover-color);
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-top: 20px;
+padding-bottom: 20px;
+padding-right: 49px;
+padding-left: 48px;
+border-radius: 16px;
+background: #8E32C6;
+margin-left:496px;
+margin-right:496px ;
+margin-top: 19px;
+}
+
+.footer {
+    padding-top: 45px;
+    padding-bottom: 54px;
+    background: #021635;
+}
+
+.footer-div {
+    display: flex;
+    border-bottom:solid 1px var(--input-color);
+    margin-bottom: 24px;
+}
+
+.questions-list {
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    margin-bottom: 20px;
+}
+
+.question-text {
+color: var(--hover-color);
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-right: 450px;
+}
+
+.email-list {
+        display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.email-link {
+color: var(--hover-color);
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-decoration-line: underline;
+}
+
+.img-end-div {
+    display: flex;
+}
+
+.footer-text {
+    color: var(--hover-color);
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 11px;
+
+}
+
+.United-States-div {
+    margin-right: 808px;
+}
+
+.footer-link {
+    color: var(--hover-color);
+font-family: "PT Serif";
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 30px;
+}
+
+.text-end {
+display: flex;
+flex-direction: column;
+}
+

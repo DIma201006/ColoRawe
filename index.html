@@ -4,19 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
       integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
       crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+      referrerpolicy="no-referrer"/>
+
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <header class="header">
+      <div class="contayner box">
       <a href="./index.html" class="header-link"
-        ><img src="./img/logo.png" alt="logo nike"
+        ><img src="./img/logo.png" alt="logo nike" class="logo"
       /></a>
       <nav>
         <ul class="nav-list">
@@ -25,28 +29,33 @@
           <li class="nav-item"><a href="#" class="nav-link">Advantages</a></li>
           <li class="nav-item"><a href="#" class="nav-link">Reviews</a></li>
           <li class="nav-item"><a href="#" class="nav-link">Contacts</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Order</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Ua Eng </a></li>
+          <li class="nav-item"><a href="#" class="nav-link header-margin">Order</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Ua <span class="header-span">Eng</span> </a></li>
         </ul>
       </nav>
+      </div>
     </header>
 
     <main class="main">
       <!-- hero -->
       <section class="hero">
+        <div class="contayner">
         <img src="./img/logo.png" alt="logo nike" class="hero-img" />
         <p class="hero-text">С&R</p>
         <h1 class="hero-title">ColoRawe</h1>
-        <h2 class="hero-h2">ColoRawe</h2>
-        <p>
+        <h2 class="hero-h2">Your dream Nike</h2>
+        <p class="hero-p">
           On this site you can find custom Nike sneakers of your dreams. The
           original company caт`t create such beautiful sneakers as we do. Good
           luck finding your way in the world of custom sneakers.
         </p>
-        <button>Buy my Nike</button>
+        <button class="hero-button">Buy my Nike</button>
+        </div>
       </section>
       <!-- плюси -->
       <section class="plus">
+        <div class="contayner">
+        <ul class="plus-list">
         <li class="plus-item">
           <h3 class="plus-title">Premium Quality</h3>
           <img src="./img/premium.png" alt="зірки" class="plus-img" />
@@ -56,70 +65,99 @@
           <h3 class="plus-title">Indelible paint</h3>
         </li>
         <li class="plus-item">
-          <h3 class="plus-title"></h3>
+          <h3 class="plus-title">Fast 
+shipping</h3>
+
           <img src="./img/delivery.png" alt="фургон" class="plus-img"/>
-        </li>
+        </li>     
+        </div>
+       </ul>
+        </div>
       </section>
       <!-- Reviews -->
-      <section class="Reviews">
-        <h2 class="Reviews-title">Reviews</h2>
-        <ul class="Reviews-list">
-          <li class="Reviews-item">
-            <p class="Reviews-text">
+      <section class="reviews">
+        <div class="contayner">
+        <h2 class="reviews-title">Reviews</h2>
+        <div class="reviews-wrap">
+        <ul class="reviews-list">
+          <li class="reviews-item">
+            <p class="reviews-text">
               Sneakers are very comfortable and well painted, nothing has worn
               off in a year.
             </p>
-            <p class="Reviews-p">25.11</p>
+            <p class="reviews-p">25.11</p>
+            <div class="reviews-perenos">
             <img
               src="./img/John Teylor.png"
               alt="John Teylor"
-              class="Reviews-img"
-            />
+              class="reviews-img"/>
+              <div>
             <h3 class="scores-title">John Teylor</h3>
             <p class="scores-text">With us from 2018</p>
+            </div>
+            </div>
           </li>
-          <li class="Reviews-item">
-            <p class="Reviews-text">
+          <li class="reviews-item">
+            <p class="reviews-text">
               I'm very happy with this color scheme. They match all my clothes.
             </p>
-            <p class="Reviews-p">05.01</p>
-            <img src="./img/Elizabeth Garsia.png "alt="Elizabeth Garsia"class="Reviews-img"/>
+            <p class="reviews-p">05.01</p>
+            <div class="reviews-perenos">
+            <img src="./img/Elizabeth Garsia.png "alt="Elizabeth Garsia"class="reviews-img"/>
+             <div>
             <h3 class="scores-title">Elizabeth Garsia</h3>
             <p class="scores-text">With us from 2020</p>
+            </div>
+            </div>
           </li>
-          <li class="Reviews-item">
-            <p class="Reviews-text">
+          <li class="reviews-item">
+            <p class="reviews-text">
               Just right if you need to go to a party. I use them actively, the
               paint is super.
             </p>
-            <p class="Reviews-p">18.06</p>
-            <img src="./img/Tom Maquare.png" alt="Tom Maquare"class="Reviews-img"/>
+            <p class="reviews-p">18.06</p>
+            <div class="reviews-perenos">
+            <img src="./img/Tom Maquare.png" alt="Tom Maquare"class="reviews-img"/>
+            <div>
             <h3 class="scores-title">Tom Maquare</h3>
             <p class="scores-text">With us from 2019</p>
+            </div>
+            </div>
           </li>
         </ul>
+        </div>
+        </div>
       </section>
-      <!-- orDer -->
+      <!-- order -->
       <section class="order">
+        <div class="contayner ">
         <h2 class="order-title">order</h2>
+        <form>
         <ul class="order-list">
-          <li>
-            <input type="email"placeholder="Write your email"class="order-input"/>
+          <li class="order-item">
+            <input type="email"  id="email" placeholder="Write your email"  class="order-input" />
           </li>
-          <li>
+          <li class="order-item">
             <input type="text" placeholder="Your Country" class="order-input"/>
           </li>
-          <li>
+          <li class="order-item">
             <input type="text" placeholder="Your City" class="order-input"/>
           </li>
-          <li>
+          <li class="order-item">
             <input type="text" placeholder="Your Adress" class="order-input"/>
           </li>
         </ul>
-        <button class="order-button">Order my Nike</button>
+        <div class="order-button-center">
+        <button type="submit" class="order-button">Order my Nike</button>
+        </div>
+        </form>
+        </div>
       </section>
     </main>
     <footer class="footer">
+      <div class="contayner">
+        <div class="footer-div">
+          <div>
         <ul class="questions-list">
             <li class="footer-item">
                 <p class="question-text">Have a question?</p>
@@ -131,20 +169,27 @@
                 <p class="question-text">Advertising questions?</p>
             </li>
         </ul>
+        </div>
+          <div>
         <ul class="email-list">
-            <li class="email-item"><a href="" class="email-link">ColoRawe_support@gmail.com</a></li>
-            <li class="email-item"><a href="" class="email-link">ColoRawe_Cooperation@gmail.com</a></li>
-           <li class="email-item"><a href="" class="email-link">ColoRawe_Advertising@gmail.com</a></li>
+            <li class="email-item"><a href="ColoRawe_support@gmail.com" class="email-link">ColoRawe_support@gmail.com</a></li>
+            <li class="email-item"><a href="ColoRawe_Cooperation@gmail.com" class="email-link">ColoRawe_Cooperation@gmail.com</a></li>
+           <li class="email-item"><a href="ColoRawe_Advertising@gmail.com" class="email-link">ColoRawe_Advertising@gmail.com</a></li>
         </ul>
-        <ul class="rights-list">
-            <li class="rights-item">
-                <p class="footer-text">2022 ColoRawe @All rights reserved</p>
-            </li>
-            <li class="rights-item">
-                <p class="footer-text">United States</p>
-            </li>
-        </ul>
-        <a class="footer-link" href="./index.html"><img src="./img/logo.png" alt="logo" class="footer-img" С&R></a>
-    </footer>
+        </div>
+        </div>
+        <div class="img-end-div">
+        <div class="United-States-div">
+           <p class="footer-text">2022 ColoRawe @All rights reserved</p>         
+           <p class="footer-text">United States</p>
+           </div>
+           <div class="text-end">
+           <a  href="./index.html"><img src="./img/logo.png" alt="logo" class="footer-img"></a>
+          
+           <p class="footer-link">С&R</p>
+           </div>
+          </div>
+          </div>
+          </footer>
   </body>
 </html>
