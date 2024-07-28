@@ -38,23 +38,24 @@ input:focus{
 }
 
 .contayner {
-    width: 1300px;
+    width: 1140px;
     margin-right: auto;
     margin-left: auto;
-    padding-right: 10px;
-    padding-left: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
     
 }
 
 .box {
     display: flex;
+    align-items: center;
 }
 
 
 /* font-family: "PT Serif", serif */
 /* font-family: "Playfair Display", serif */
 
-::before {
+body {
     font-family: "Roboto", sans-serif;
 }
 
@@ -80,7 +81,6 @@ line-height: normal;
 
 .nav-link:hover {
 color:var(--hover-color);
-font-family: Roboto;
 font-size: 24px;
 font-style: normal;
 font-weight: 400;
@@ -128,8 +128,6 @@ padding-bottom: 150px;
 background-image: url(./img/bakgraund-nik.jpg);
 background-size: cover;
 background-repeat: no-repeat;
-/* width: 1930px; */
-/* height: 858px; */
 }
 
 .hero-img {
@@ -191,13 +189,11 @@ padding-left: 61px;
 /* плюси */
 
 .plus {
-    /* background-image:url(./img/backgraund-plus.jpg); */
  background: url(./img/backgraund-plus.jpg), lightgray 0px -384px / 100% 227.888% no-repeat;;
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 100px;
     padding-bottom:100px;
-    /* width: 1930px; */
 }
 
 .plus-list {
@@ -208,35 +204,25 @@ padding-left: 61px;
 }
 
 .plus-item {
-    margin-bottom:20px;
-    margin-top:22px;
-    padding-left:90px;
-    padding-right: 95px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-top: 20px;
+    padding-left:50px;
+    padding-right: 50px;
 }
 
 
+
 .plus-item:nth-child(2) {
-    padding-left:110px;
-    padding-right: 110px;
+    padding-left:95px;
+    padding-right: 95px;
     border-right:solid 1px var(--hover-color);
     border-left:solid 1px var(--hover-color);
 }
 
-/* .plus-linia {
-background-color:#FFF;
-width: 1px;
-height: 346px;
-} */
 
 
 
-
-
-
-/* .plus-item:last-child {
-    padding-top: ;
-    padding-right;
-} */
 
 
 .plus-title {
@@ -249,13 +235,12 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 margin-bottom: 10px;
+margin-left: auto;
+margin-right: auto;
 }
 
-/* .plus-img {
-width: 240px;
-height: 240px;
 
-} */
+
 
 /* Reviews */
 
@@ -286,7 +271,6 @@ margin-bottom: 24px;
 .reviews-list {
     display: flex;
     gap: 93px;
-  
 }
 
 .reviews-item {
@@ -368,6 +352,7 @@ line-height: normal;
     padding-top: 20px;
     padding-bottom: 37px;
     background: url(./img/order-backgraund.jpg) lightgray -1.001px -1.002px / 100.209% 158.214% no-repeat;
+text-align: center;
 }
 
 
@@ -407,8 +392,10 @@ padding-bottom: 11px;
 
 
 .order-input:focus {
- width: 690px;
-height: 50px;
+padding-left: 24px;
+padding-right: 460px;
+padding-top: 12px;
+padding-bottom: 13px;
 }
 
 
@@ -424,9 +411,9 @@ padding-bottom: 20px;
 padding-right: 49px;
 padding-left: 48px;
 border-radius: 16px;
-background: #8E32C6;
-margin-left:496px;
-margin-right:496px ;
+background: var(--background-color);
+margin-left: auto;
+margin-right: auto;
 margin-top: 19px;
 }
 
