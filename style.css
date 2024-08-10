@@ -38,7 +38,7 @@ input:focus{
 }
 
 .contayner {
-    width: 1140px;
+    width: 1150px;
     margin-right: auto;
     margin-left: auto;
     padding-right: 15px;
@@ -68,6 +68,15 @@ body {
 
 .nav-list {
     display: flex;
+
+}
+
+.nav-item  {
+transition: transform 1.4s ease;
+}
+
+.nav-item:hover {
+transform: rotate(360deg);
 }
 
 .nav-link {
@@ -75,7 +84,7 @@ body {
 font-size: 24px;
 font-style: normal;
 font-weight: 300;
-line-height: normal;
+line-height: 1.16px;
 }
 
 
@@ -84,7 +93,7 @@ color:var(--hover-color);
 font-size: 24px;
 font-style: normal;
 font-weight: 400;
-line-height: normal;
+line-height: 1.16;
 }
 
 .header-span:hover {
@@ -92,7 +101,7 @@ line-height: normal;
 font-size: 24px;
 font-style: normal;
 font-weight: 300;
-line-height: normal;
+line-height: 1.17;
 }
 
 .logo {
@@ -115,7 +124,7 @@ line-height: normal;
 font-size: 24px;
 font-style: normal;
 font-weight: 400;
-line-height: normal;
+line-height: 1.17;
 }
 
 
@@ -140,7 +149,8 @@ font-family: "PT Serif";
 font-size: 48px;
 font-style: normal;
 font-weight: 400;
-line-height: normal;
+line-height: 1.33;
+margin-left: 20px;
 }
 
 .hero-title  {
@@ -149,7 +159,7 @@ font-family: "Playfair Display";
 font-size: 144px;
 font-style: normal;
 font-weight: 400;
-line-height: normal;
+line-height: 1.33;
 }
 
 .hero-h2 {
@@ -158,7 +168,7 @@ font-family: "Playfair Display";
 font-size: 72px;
 font-style: normal;
 font-weight: 400;
-line-height: normal;
+line-height: 1.33;
 margin-bottom: 12px;
 }
 
@@ -168,7 +178,7 @@ margin-bottom: 12px;
 font-size: 18px;
 font-style: normal;
 font-weight: 400;
-line-height: normal;
+line-height:1.16;
 margin-bottom: 41px;
 }
 
@@ -184,6 +194,7 @@ padding-top: 20px;
 padding-bottom: 19px;
 padding-right: 61px;
 padding-left: 61px;
+line-height: 1.16;
 }
 
 /* плюси */
@@ -233,7 +244,7 @@ font-family: "Playfair Display";
 font-size: 36px;
 font-style: normal;
 font-weight: 400;
-line-height: normal;
+line-height: 1.33;
 margin-bottom: 10px;
 margin-left: auto;
 margin-right: auto;
@@ -260,7 +271,7 @@ font-family: "Playfair Display";
 font-size: 48px;
 font-style: normal;
 font-weight: 400;
-line-height: normal;
+line-height: 1.33;
 margin-bottom: 24px;
 }
 
@@ -302,17 +313,16 @@ font-family: Roboto;
 font-size: 24px;
 font-style: normal;
 font-weight: 400;
-line-height: normal;
+line-height:1.16;
 margin-bottom: 8px;
 }
 
 .reviews-p {
     color: var(--additional-color);
-font-family: Roboto;
 font-size: 14px;
 font-style: normal;
 font-weight: 400;
-line-height: normal;
+line-height:1.14;
 margin-bottom: 47px;
 }
 
@@ -328,21 +338,19 @@ margin-bottom: 47px;
 
 .scores-title {
     color: var(--hover-color);
-font-family: Roboto;
 font-size: 14px;
 font-style: normal;
 font-weight: 400;
-line-height: normal;
+line-height:1.14;
 margin-bottom: 1px;
 }
 
 .scores-text {
     color: var(--additional-color);
-font-family: Roboto;
 font-size: 12px;
 font-style: normal;
 font-weight: 400;
-line-height: normal;
+line-height:1.14;
 }
 
 
@@ -378,6 +386,7 @@ margin-bottom: 37px;
 .order-item {
     margin-right: auto;
     margin-left: auto;
+    position: relative;
 }
 
 .order-input {
@@ -390,6 +399,18 @@ padding-bottom: 11px;
 }
 
 
+.input-button {
+    color: #8D8D8D;
+font-family: Roboto;
+font-size: 23px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.16;
+position: absolute;
+    top: 8px;
+    right: 55px;
+background: #FFF;
+}
 
 .order-input:focus {
 padding-left: 24px;
@@ -397,6 +418,8 @@ padding-right: 460px;
 padding-top: 12px;
 padding-bottom: 13px;
 }
+
+
 
 
 .order-button {
@@ -438,7 +461,6 @@ margin-top: 19px;
 
 .question-text {
 color: var(--hover-color);
-font-family: Roboto;
 font-size: 24px;
 font-style: normal;
 font-weight: 400;
@@ -454,7 +476,6 @@ margin-right: 450px;
 
 .email-link {
 color: var(--hover-color);
-font-family: Roboto;
 font-size: 24px;
 font-style: normal;
 font-weight: 400;
@@ -468,13 +489,21 @@ text-decoration-line: underline;
 
 .footer-text {
     color: var(--hover-color);
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+.email-footer {
+    color: var(--hover-color);
 font-family: Roboto;
 font-size: 18px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
 margin-bottom: 11px;
-
 }
 
 .United-States-div {
