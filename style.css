@@ -142,6 +142,8 @@ background-repeat: no-repeat;
     width: 160px;
 }
 
+/* g */
+
 .hero-text {
     color: var(--hover-color);
 font-family: "PT Serif";
@@ -149,7 +151,7 @@ font-size: 48px;
 font-style: normal;
 font-weight: 400;
 line-height: 1.33;
-margin-left: 20px;
+margin-left: 30px;
 }
 
 .hero-title  {
